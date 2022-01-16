@@ -3512,9 +3512,19 @@ input, select, textarea {
 		}
 
 	#footer > .inner .menu {
-		font-size: 0.8em;
-		color: rgba(255, 255, 255, 0.15);
+		display: flex;
+		justify-content: center;
+		font-size: 0.9em;
+		color: rgba(255, 255, 255, 0.85);
 	}
+
+
+		#footer p {
+			text-align: right;
+			font-size: 0.7em;
+			color: rgba(255, 255, 255, 0.25);
+		}
+
 
 	#header + #wrapper + #footer > .inner {
 		margin: 0 auto;
